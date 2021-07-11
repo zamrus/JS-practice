@@ -18,8 +18,8 @@ function* generator () {
     yield thirdFunc();
 }
 
-let newGen = generator();
+let newGenerator = generator();
 
 for (let i = 0; i <= 3; i++) {
-    console.log(newGen.next());
+    console.log(newGenerator.next());
 }
