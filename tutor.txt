@@ -1,1 +1,0 @@
-every branch consists of separate blocks of JavaScript code, which show the possibilities of this language. 
