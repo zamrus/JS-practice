@@ -46,4 +46,11 @@ const closureFunc = (c) => {
 }
 
 let childFunc = closureFunc(5);
+
 console.log(childFunc(2, 3));
+
+// IIFE - Immediately Invoked Function Expresiion
+
+(function iife() {
+    console.log('I am IIFE, nice to met you!');
+})();
